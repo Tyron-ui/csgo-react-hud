@@ -10,7 +10,7 @@
 
 .teambox {
     position: fixed;
-    bottom: 10px;
+    bottom: 25px;
     display: flex;
     flex-direction: column;
     opacity: 1;
