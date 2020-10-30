@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\public",
-    "\\src",
-    "\\src\\HUD",
-    "\\src\\HUD\\PlayerOverview",
-    "\\src\\HUD\\Styles"
+    ""
   ],
-  "SelectedNode": "\\src\\HUD\\PlayerOverview\\PlayerOverview.tsx",
   "PreviewInSolutionExplorer": false
 }

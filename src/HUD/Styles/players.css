@@ -23,11 +23,11 @@
 
 
 .teambox.left {
-    left: 10px;
+    left: 25px;
 }
 
 .teambox.right {
-    right: 10px;
+    right: 25px;
 }
 
 .teambox .player {
@@ -478,7 +478,7 @@ img.weapon.active {
     color: var(--mainT);
 }
 
-.players_alive {
+/*.players_alive {
     display: flex;
     flex-direction: column;
     width: 180px;
@@ -524,4 +524,4 @@ img.weapon.active {
 }
 .players_alive .counter_container .T {
     color: var(--color-new-t);
-}
+}*/
