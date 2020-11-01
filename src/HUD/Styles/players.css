@@ -39,6 +39,23 @@
     align-items: center;
 }
 
+.teambox .player .hp_bar_red {
+        height: 50%;
+        background-color: red;
+        transition: width 0.25s 150ms;
+        transition-delay: 2s;
+        position: absolute;
+}
+
+.teambox .player.dead .hp_bar_red {
+    transition: width 0.25s;
+    transition-delay: 0s;
+}
+
+.teambox.right .player .hp_bar_red {
+        align-self: flex-end;
+}
+
 .teambox.right .player {
     flex-direction: row-reverse;
 }
@@ -91,9 +108,9 @@
     filter: grayscale(100%);
 }
 
-.teambox .player .player_data .avatar img {
+/*.teambox .player .player_data .avatar img {
     border-radius:50%;
-}
+}*/
 
 .teambox .player .player_data .player_stats {
     display: flex;

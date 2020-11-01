@@ -46,6 +46,9 @@ export default class PlayerBox extends React.Component<IProps> {
                 {player.state.round_kills ? <div className="roundkills-container">{player.state.round_kills}</div> : null}
               </div>
             </div>
+            <div className={`hp_bar_red`} style={{ width: `calc( ${player.state.health}% - 70px)` }}>
+            </div>
+```
             <div className={`hp_bar ${player.state.health <= 20 ? 'low':''}`} style={{ width: `${player.state.health}%` }}></div>
             <div className="row">
               <div className="armor_and_utility">
